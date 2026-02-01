@@ -6,10 +6,11 @@
 
 #include"shaderClass.h"
 
+//handles loading, binding, and managing OpenGL image textures
 class Texture
 {
 	public:
-		GLuint ID;
+		GLuint ID; // OpenGL ID of the texture
 		GLenum type;
 		Texture(const char* image, GLenum texType, GLenum slot, GLenum format, GLenum pixelType);
 

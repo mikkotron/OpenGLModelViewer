@@ -3,6 +3,7 @@
 
 #include<glad/glad.h>
 
+//element buffer object //stores indices to reuse vertices for multiple triangles
 class EBO
 {
 public:

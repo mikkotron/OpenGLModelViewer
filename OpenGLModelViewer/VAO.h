@@ -4,12 +4,13 @@
 #include <glad/glad.h>
 #include"VBO.h"
 
+// vertex array object stores instructions for how to read that vertex data
 class VAO
 {
 	public:
 		GLuint ID;
 		VAO();
-
+		// Links a VBO to a vertex attribute in the VAO
 		void LinkAttrib(VBO& VBO, GLuint layout, GLuint numComponents, GLenum type, GLsizei stride, void* offset);
 		void Bind();
 		void Unbind();

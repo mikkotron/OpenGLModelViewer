@@ -1,5 +1,6 @@
 #include"VBO.h"
 
+//Constructor for vertex buffer object // stores data
 VBO::VBO(GLfloat* vertices, GLsizeiptr size)
 {
 	glGenBuffers(1, &ID); // creating a buffer object giving it value one becauase we create only 1 3D object

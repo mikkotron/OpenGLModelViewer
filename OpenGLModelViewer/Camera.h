@@ -11,7 +11,7 @@
 #include<glm/gtx/vector_angle.hpp>
 
 #include"shaderClass.h"
-
+// Camera class handles view/projection matrices and user input
 class Camera
 {
 	public: 

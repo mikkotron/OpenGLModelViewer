@@ -29,6 +29,7 @@ GLfloat vertices[] =
 
 };
 
+// order how to draw the vertices
 GLuint indices[] =
 {
     0, 1, 2,

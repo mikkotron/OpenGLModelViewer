@@ -3,6 +3,7 @@
 
 #include<glad/glad.h>
 
+//stores vertex data
 class VBO
 {
 	public:
